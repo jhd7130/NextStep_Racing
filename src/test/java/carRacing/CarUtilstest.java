@@ -47,6 +47,7 @@ public class CarUtilstest {
     @DisplayName("업그레이드가 가능한지 아닌지 체크")
     void 유틸_업그레이드_테스트(){
         boolean test = utilCars.isUpdate();
+        // 어쩔 수 없이 시스아웃(값이 매번 달라짐)
         System.out.println(test);
         System.out.println(new Random().nextInt(10));
     }
